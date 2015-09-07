@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alexvasilkov.foldablelayout.sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:label="FoldableLayout">
+
+        <activity android:name="com.smaran.foldablelayout.sample.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.smaran.foldablelayout.sample.activities.UnfoldableDetailsActivity"
+            android:label="Unfoldable details" />
+
+        <activity
+            android:name="com.smaran.foldablelayout.sample.activities.FoldableListActivity"
+            android:label="Foldable list" />
+
+    </application>
+
+</manifest>

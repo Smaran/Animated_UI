@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="paintings_titles">
+        <item>Paint 1</item>
+        <item>Paint 2</item>
+        <item>Paint 3</item>
+        <item>Paint 4</item>
+    </string-array>
+
+    <string-array name="paintings_years">
+        <item>Time of your life</item>
+        <item>Green Day</item>
+        <item>Linkin Park</item>
+        <item>Text</item>
+        <item>text</item>
+    </string-array>
+
+    <string-array name="paintings_locations">
+        <item>Sample texxt</item>
+        <item>Bangalore</item>
+        <item>India</item>
+        <item>Txt 4</item>
+        <item>Text 5</item>
+    </string-array>
+
+    <array name="paintings_images">
+        <item>@drawable/paint_1</item>
+        <item>@drawable/paint_2</item>
+        <item>@drawable/paint_3</item>
+        <item>@drawable/paint_4</item>
+        <item>@drawable/paint_5</item>
+    </array>
+
+</resources>
